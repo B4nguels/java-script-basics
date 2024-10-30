@@ -48,7 +48,7 @@ function findMax(array) {
     return max;
 }
 
-console.log(findMax([4,6,9,69])) //pergunta pro leo dps pq nao entendi PORRA NENHUMA (FOI O CHAT QUE FEZ)
+console.log(findMax([4,6,9,69]))
 
 
 function factorial(n) {
@@ -66,4 +66,4 @@ result *= i
 result = result * i 
 
 
-console.log(factorial(5)); // mesma coisa aqui
+console.log(factorial(5)); 
