@@ -28,19 +28,19 @@ let frase = "mochakk"
 
 function countCharacters() {
 
-    return frase.length  //lenght retorna o numero de caratres da string(NAO LEO NAO É O CHAT GPT SOU EU B4NGUELS)
+    return frase.length  //lenght = comprimento em ingles ( tamanho maximo de alguma coisa)
 
 }
 
 console.log(countCharacters())
 
 
-
+//(parametro palavra que  vai ser substituida depois) 
 function findMax(array) {
 
     let max = array[0]
     
-    for (let i = 1; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (array[i] > max) {
             max = array[i];
         }
@@ -59,5 +59,11 @@ function factorial(n) {
     return result;
 }
 
-console.log(factorial(5)); // mesma coisa aqui
+i++ 
+i = i +  1
 
+result *= i     
+result = result * i 
+
+
+console.log(factorial(5)); // mesma coisa aqui
